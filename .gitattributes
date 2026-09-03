@@ -1,0 +1,17 @@
+# Normalize line endings on commit, check out native
+* text=auto
+
+*.cpp   text
+*.h     text
+*.txt   text
+*.md    text
+*.json  text
+*.csv   text
+*.cmake text
+CMakeLists.txt text
+
+*.png binary
+*.dll binary
+*.exe binary
+*.lib binary
+*.pdb binary
